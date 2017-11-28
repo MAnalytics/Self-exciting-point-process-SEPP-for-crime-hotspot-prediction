@@ -77,7 +77,7 @@ startDate <- as.Date(train_startDate) #the start date of training dataset
 #-----------------------------------------
 #Note: the longer the training dataset, the more accurate the prediction. 
 #This however, comes with a price of enormous computational time, especially when the training data contains too many records.
-#Based on experience, a training dataset of 2,000 records will take approximately 2 minutes
+#Based on experience, the algorithm will take approximately 2 minutes to run a training dataset of 2,000 records 
 #Thus, I restrict the training data length to 2,000 records in this script (see line )
 #Plot=NULL (TRUE/FALSE) #to plot the hotspot surface
 #-----------------------------------------
