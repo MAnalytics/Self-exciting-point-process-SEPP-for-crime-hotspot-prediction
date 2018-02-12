@@ -14,6 +14,7 @@ library("etasFLP")
 library(maptools)
 library(ggplot2)
 library(sp)
+library(raster)
 
 #------------------------------------------
 #Inputs data sets
