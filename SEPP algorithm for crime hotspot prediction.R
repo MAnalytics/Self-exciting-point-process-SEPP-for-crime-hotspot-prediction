@@ -22,7 +22,7 @@ library(raster)
 
 #import spatial grid units e.g. see script "Creating a spatial grid system.....R"
 #-----------------------------------
-grids <- readOGR(dsn="//ds.leeds.ac.uk/staff/staff7/geomad/WORK/etasFLP_SEPP", layer="spatial_grid_system")
+grids <- readOGR(dsn="C:/R/Github/Self-exciting-point-process-SEPP-for-crime-hotspot-prediction", layer="spatial_grid_system")
 #-----------------------------------
 
 #to check the CRS of the grid system is in WGS84, otherwise transform
